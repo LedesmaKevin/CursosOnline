@@ -1,13 +1,41 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thymeleaf</title>
+    <style>
+        .jumbotron {
+            background: url('https://d2vvqscadf4c1f.cloudfront.net/rGIBmJUAT46UuLPwXo3K_Fedora_Core_Ultimate2.jpg') no-repeat center center;
+            height: 350px;
+            color: white;
+            text-shadow: #444 0 1px 1px;
+        }
+        body {
+            color: #2b3636;
+            font-family: "Proxima";
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            color: #6cb44a;
+        }
+        .course-description {
+            color: #586f6f;
+            font-size: 14px;
+            font-weight: 200;
+        }
+    </style>
 </head>
 <body>
-    <h1>Thymeleaf</h1>
-    <p>Rocking out Thymeleaf with Spring.</p>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Thymeleaf</h1>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Thymeleaf</h1>
+        <p class="course-description">Conozca Thymeleaf, un motor de plantillas para Java, y cómo integrarlo con Spring para crear aplicaciones web dinámicas y mantenibles.Este curso abarca el uso de Thymeleaf con Spring, enseñando cómo crear plantillas robustas y dinámicas para aplicaciones web, optimizando la experiencia del usuario y la eficiencia del desarrollo.</p>
+        <a href="/">Volver a la página principal</a>
+    </div>
 </body>
 </html>
